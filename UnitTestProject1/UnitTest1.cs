@@ -10,10 +10,13 @@ namespace UnitTestProject1
         [TestMethod]
         public void Dvanact_Delitele_Vraci12346()
         {
+            // Arrange
             string r = string.Empty;
 
+            // Act
             r = Delitelnost.VypisDelitele(12);
 
+            // Assert
             Assert.AreEqual(r, "12346");
         }
 
